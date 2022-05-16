@@ -7,14 +7,20 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatToolbarModule } from '@angular/material/toolbar'; 
 import { MatIconModule } from '@angular/material/icon';
 import { MatCardModule } from '@angular/material/card'; 
+import { MatButtonModule } from '@angular/material/button'
 import { DragDropModule } from '@angular/cdk/drag-drop';
+import { MatDialogModule } from '@angular/material/dialog';
+import { MatInputModule } from '@angular/material/input'
 
-import { TaskComponent } from './task/task.component'; 
+import { TaskComponent } from './task/task.component';
+import { TaskDialogComponent } from './task-dialog/task-dialog.component'; 
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
     AppComponent,
-    TaskComponent
+    TaskComponent,
+    TaskDialogComponent
   ],
   imports: [
     BrowserModule,
@@ -22,6 +28,10 @@ import { TaskComponent } from './task/task.component';
     MatToolbarModule, 
     MatIconModule, 
     MatCardModule,
+    MatButtonModule,
+    MatDialogModule,
+    MatInputModule, 
+    FormsModule, 
     DragDropModule,
   ],
   providers: [],
