@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "kanbanfire-170d2": {
+      "hosting": {
+        "kanban-fire": [
+          "kanbanfire-170d2"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "kanbanfire-170d2"
+  }
+}
