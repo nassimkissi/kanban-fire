@@ -1,5 +1,9 @@
 # KanbanFire
 
+This project comes from a google course. It is only a basis for the following course: and still needs some improvements 
+
+-> [Building a web application with Angular and Firebase](https://developers.google.com/codelabs/building-a-web-app-with-angular-and-firebase#0)
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.5.
 
 ## Development server
